@@ -1,0 +1,112 @@
+/* External CSS for Cafeteria Website */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: beige;
+    padding: 20px;
+}
+
+header { 
+    background-color: crimson;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    margin: 0;
+    color:dimgray;
+    text-decoration: none;
+}
+
+section { 
+    margin: 20px 0;
+}
+
+h2 {
+    color:black
+}
+
+img {
+    margin: 0 auto;
+    height: 300px;
+    width: 717px;
+}
+
+figure{
+    margin: 20px;
+}
+
+figcaption { 
+    font-style: italic;
+    text-align: left;
+}
+
+details {
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: crimson;
+    color: black;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+aside {
+    background-color: blue;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Link Styles */
+a:hover {
+    color:gray;
+    overflow: hidden;
+}
+
+.topnav{
+    background-color: silver;
+    overflow: hidden;
+}
+
+.topnav a{
+    float:left;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: darkred;
+    color: black;
+}
